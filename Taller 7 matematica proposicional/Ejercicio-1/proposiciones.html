@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 1 - Evaluador de proposiciones</title>
+  <script src="./Js/script.js" defer></script>
+</head>
+<body>
+  <h2>Ejercicio 1: Evaluador de proposiciones</h2>
+  <label>p: 
+    <select id="p">
+      <option value="true">Verdadero</option>
+      <option value="false">Falso</option>
+    </select>
+  </label>
+  <label>q: 
+    <select id="q">
+      <option value="true">Verdadero</option>
+      <option value="false">Falso</option>
+    </select>
+  </label>
+  <button onclick="evaluar()">Evaluar</button>
+
+  <p id="resultado"></p>
+</body>
+</html>
